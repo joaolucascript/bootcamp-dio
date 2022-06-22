@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.bunny.net/css?family=ibm-plex-mono:400"
+      rel="stylesheet"
+    />
+    <title>Flex Direction</title>
+    <style>
+      * {
+        font-family: "IBM Plex Mono";
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+      }
+      ul li {
+        font-weight: 400;
+        font-size: 22px;
+        color: white;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .desc {
+        max-width: max-content;
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 12px;
+        border-radius: 10px 10px 0px 0px;
+        margin: 56px auto;
+      }
+      .box {
+        border: 4px solid black;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 50px;
+        text-align: center;
+        min-width: 600px;
+        margin: 100px auto 50px auto;
+      }
+      .flex-container {
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      .flex-item {
+        background: #0075f2;
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .row-reverse {
+        flex-direction: row-reverse;
+      }
+      .row-reverse li {
+        background: #1fd163;
+      }
+      .column {
+        float: left;
+        flex-direction: column;
+      }
+      .column li {
+        background: #ff4463;
+      }
+      .column-reverse {
+        float: right;
+        flex-direction: column-reverse;
+      }
+      .column-reverse li {
+        background: #f46036;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desc">Flex Direction</div>
+    <div class="box">
+      <h1></h1>
+      <ul class="flex-container row">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+      </ul>
+      <ul class="flex-container row-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+      </ul>
+      <ul class="flex-container column">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+      </ul>
+      <ul class="flex-container column-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+      </ul>
+    </div>
+  </body>
+</html>

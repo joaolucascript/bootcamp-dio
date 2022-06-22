@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.bunny.net/css?family=ibm-plex-mono:400"
+      rel="stylesheet"
+    />
+    <title>Display Flex</title>
+    <style>
+      * {
+        font-family: "IBM Plex Mono";
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .desc {
+        max-width: max-content;
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 12px;
+        border-radius: 10px 10px 0px 0px;
+        margin: 56px auto;
+      }
+      .box {
+        border: 4px solid black;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 50px;
+        text-align: center;
+        min-width: 400px;
+        margin: 100px auto 50px auto;
+      }
+      .flex {
+        margin: 0 auto;
+        padding: 10px;
+        border: 2px solid black;
+        display: flex;
+      }
+      .item {
+        background-color: aqua;
+        height: 100%;
+        max-width: 100%;
+        margin: 5px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desc">Display Flex</div>
+    <div class="box">
+      <div class="flex">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+      </div>
+    </div>
+  </body>
+</html>

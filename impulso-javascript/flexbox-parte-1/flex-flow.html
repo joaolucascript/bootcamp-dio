@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.bunny.net/css?family=ibm-plex-mono:400"
+      rel="stylesheet"
+    />
+    <title>Flex Flow</title>
+    <style>
+      * {
+        font-family: "IBM Plex Mono";
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-weight: 400;
+        margin: 50px 0 0 0px;
+        font-size: 25px;
+      }
+      h1:first-child {
+        margin-top: 10px;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .desc {
+        max-width: max-content;
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 12px;
+        border-radius: 10px 10px 0px 0px;
+        margin: 56px auto;
+      }
+      .box {
+        border: 4px solid black;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 50px;
+        text-align: center;
+        min-width: 600px;
+        margin: 100px auto 50px auto;
+      }
+      .flex-container {
+        display: flex;
+        margin: 0 auto;
+        height: 150px;
+        border: 2px solid black;
+        max-width: 408px;
+      }
+      .item {
+        background-color: #9056ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 24px;
+        height: 73px;
+        min-width: 100px;
+        margin: 1px;
+      }
+      .default {
+        flex-flow: row nowrap;
+      }
+      .wrap {
+        flex-flow: row wrap;
+      }
+      .wrap-reverse {
+        flex-flow: row wrap-reverse;
+      }
+      .r-nowrap {
+        flex-flow: row-reverse nowrap;
+      }
+      .r-wrap {
+        flex-flow: row-reverse wrap;
+      }
+      .r-rwrap {
+        flex-flow: row-reverse wrap-reverse;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desc">Flex Flow</div>
+    <div class="box">
+      <h1>row nowrap</h1>
+      <div class="flex-container default">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </div>
+      <h1>row wrap</h1>
+      <div class="flex-container wrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </div>
+      <h1>row wrap-reverse</h1>
+      <div class="flex-container wrap-reverse">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </div>
+      <h1>row-reverse nowrap</h1>
+      <div class="flex-container r-nowrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </div>
+      <h1>row-reverse wrap</h1>
+      <div class="flex-container r-wrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </div>
+      <h1>row-reverse wrap-reverse</h1>
+      <div class="flex-container r-rwrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+      </div>
+    </div>
+  </body>
+</html>
