@@ -13,3 +13,5 @@
 + [justify-content](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/flexbox-parte-1/justify-content.html)
 + [align-items](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/flexbox-parte-1/align-items.html)
 + [align-content](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/flexbox-parte-1/align-content.html)
+
+#### Flexbox - Parte 02
