@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.bunny.net/css?family=ibm-plex-mono:400"
+      rel="stylesheet"
+    />
+    <title>Align Items</title>
+    <style>
+      * {
+        font-family: "IBM Plex Mono";
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: block;
+      }
+      h1 {
+        font-weight: 400;
+        font-size: 25px;
+      }
+      .desc {
+        max-width: max-content;
+        display: flex;
+        background-color: black;
+        color: white;
+        padding: 12px;
+        border-radius: 10px 10px 0px 0px;
+        margin: 60px auto 0 auto;
+        text-align: center;
+      }
+      .box {
+        border: 4px solid black;
+        flex-direction: column;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        justify-content: center;
+        max-width: 400px;
+        margin: 0px auto 50px auto;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        height: max-content;
+        border: 2px solid black;
+        max-width: 400px;
+        margin: 0 auto 40px auto;
+      }
+      .item {
+        background-color: #9056ff;
+        color: white;
+        display: flex;
+        flex: 1;
+        margin: 5px;
+        justify-content: center;
+        padding: 10px;
+      }
+      .item > div {
+        margin: 5px;
+      }
+      .center {
+        align-items: center;
+      }
+      .stretch {
+        align-items: stretch;
+      }
+      .flex-start {
+        align-items: flex-start;
+      }
+      .flex-end {
+        align-items: flex-end;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .centro-tela {
+        display: flex;
+        height: 200px;
+        justify-content: center;
+        margin: 50px;
+      }
+      .centro-tela .item {
+        padding: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="desc">Align Items<br />(row)</div>
+      <div class="box">
+        <div>
+          <h1>center</h1>
+          <div class="container center">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+        <div>
+          <h1>stretch</h1>
+          <div class="container stretch">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+        <div>
+          <h1>flex-start</h1>
+          <div class="container flex-start">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+        <div>
+          <h1>flex-end</h1>
+          <div class="container flex-end">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="desc">Align Items<br />(column)</div>
+      <div class="box">
+        <div>
+          <h1>center</h1>
+          <div class="container center column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+        <div>
+          <h1>stretch</h1>
+          <div class="container stretch column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+        <div>
+          <h1>flex-start</h1>
+          <div class="container flex-start column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+        <div>
+          <h1>flex-end</h1>
+          <div class="container flex-end column">
+            <div class="item">Item 1</div>
+            <div class="item">Lorem ipsum dolor, sit amet consectetur</div>
+            <div class="item">Item 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="desc">Alinhamento ao centro da tela</div>
+      <div class="box">
+        <div class="center centro-tela">
+          <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
