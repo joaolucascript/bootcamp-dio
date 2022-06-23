@@ -23,6 +23,9 @@
         font-weight: 400;
         font-size: 25px;
       }
+      .box > div > h1 {
+        margin-top: 40px;
+      }
       .desc {
         max-width: max-content;
         display: flex;
@@ -39,8 +42,9 @@
         border-radius: 10px;
         display: flex;
         flex-wrap: wrap;
-        padding: 50px;
+        padding: 0px 50px 50px 50px;
         justify-content: center;
+        align-items: center;
         max-width: 400px;
         margin: 0px auto 50px auto;
         text-align: center;
@@ -50,7 +54,7 @@
         height: max-content;
         border: 2px solid black;
         max-width: 400px;
-        margin: 0 auto 40px auto;
+        margin: 0 auto;
       }
       .item {
         background-color: #9056ff;
@@ -81,12 +85,12 @@
       }
       .centro-tela {
         display: flex;
-        height: 200px;
+        align-items: center;
         justify-content: center;
-        margin: 50px;
-      }
-      .centro-tela .item {
-        padding: 40px;
+        background-color: #9056ff;
+        margin: 50px 50px 0px 50px;
+        padding: 20px;
+        color: white;
       }
     </style>
   </head>
@@ -102,6 +106,7 @@
             <div class="item">Item 3</div>
           </div>
         </div>
+
         <div>
           <h1>stretch</h1>
           <div class="container stretch">
@@ -110,6 +115,7 @@
             <div class="item">Item 3</div>
           </div>
         </div>
+
         <div>
           <h1>flex-start</h1>
           <div class="container flex-start">
@@ -118,6 +124,7 @@
             <div class="item">Item 3</div>
           </div>
         </div>
+
         <div>
           <h1>flex-end</h1>
           <div class="container flex-end">
@@ -128,6 +135,7 @@
         </div>
       </div>
     </div>
+
     <div>
       <div class="desc">Align Items<br />(column)</div>
       <div class="box">
@@ -139,6 +147,7 @@
             <div class="item">Item 3</div>
           </div>
         </div>
+
         <div>
           <h1>stretch</h1>
           <div class="container stretch column">
@@ -147,6 +156,7 @@
             <div class="item">Item 3</div>
           </div>
         </div>
+
         <div>
           <h1>flex-start</h1>
           <div class="container flex-start column">
@@ -155,6 +165,7 @@
             <div class="item">Item 3</div>
           </div>
         </div>
+
         <div>
           <h1>flex-end</h1>
           <div class="container flex-end column">
@@ -165,13 +176,12 @@
         </div>
       </div>
     </div>
+
     <div>
       <div class="desc">Alinhamento ao centro da tela</div>
       <div class="box">
-        <div class="center centro-tela">
-          <div class="item">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </div>
+        <div class="centro-tela">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
     </div>
