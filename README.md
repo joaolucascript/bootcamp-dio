@@ -18,3 +18,6 @@
 
 + [flex-basis](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/flexbox-parte-2/flex-basis.html)
 + [flex-grow](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/flexbox-parte-2/flex-grow.html)
++ [flex-shrink](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/flexbox-parte-2/flex-shrink.html)
++ [flex](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/flexbox-parte-2/flex.html)
+
