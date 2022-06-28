@@ -62,8 +62,21 @@
         color: white;
         padding: 10px;
       }
+      .fs-0 {
+        flex-shrink: 0;
+        flex-basis: 100px;
+      }
       .fs-1 {
         flex-shrink: 1;
+        flex-basis: 100px;
+      }
+      .fs-2 {
+        flex-shrink: 2;
+        flex-basis: 100px;
+      }
+      .fs-3 {
+        flex-shrink: 3;
+        flex-basis: 100px;
       }
       .fg-1 {
         flex-grow: 1;
@@ -74,13 +87,46 @@
     <div class="desc">flex-shrink</div>
     <div class="box">
       <div>
-        <h1>fs-1 fg-1</h1>
+        <h1>flex-shrink: 1</h1>
         <div class="container">
           <div class="item fs-1 fg-1">A</div>
           <div class="item fs-1 fg-1">B</div>
           <div class="item fs-1 fg-1">C</div>
           <div class="item fs-1 fg-1">D</div>
           <div class="item fs-1 fg-1">E</div>
+        </div>
+      </div>
+
+      <div>
+        <h1>flex-shrink: 1</h1>
+        <div class="container">
+          <div class="item fs-1 fg-1">A</div>
+          <div class="item fs-1 fg-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+          <div class="item fs-1 fg-1">C</div>
+          <div class="item fs-1 fg-1">D</div>
+          <div class="item fs-1 fg-1">E</div>
+        </div>
+      </div>
+
+      <div>
+        <h1>flex-shrink: 0<br />flex-basis: 100px</h1>
+        <div class="container">
+          <div class="item fs-0 fg-1">A</div>
+          <div class="item fs-0 fg-1">BBBBBBBBBB</div>
+          <div class="item fs-0 fg-1">C</div>
+          <div class="item fs-0 fg-1">D</div>
+        </div>
+      </div>
+
+      <div>
+        <h1>flex-shrink: mixed<br />flex-basis: 100px</h1>
+        <div class="container">
+          <div class="item fs-1 fg-1">A</div>
+          <div class="item fs-2 fg-1">BBBBBBBBBB</div>
+          <div class="item fs-2 fg-1">C</div>
+          <div class="item fs-3 fg-1">D</div>
         </div>
       </div>
     </div>
