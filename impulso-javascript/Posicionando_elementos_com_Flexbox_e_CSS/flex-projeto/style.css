@@ -1,0 +1,335 @@
+@import url(https://fonts.bunny.net/css?family=birthstone:400);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #173c7c;
+    height: 100px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-family: 'BirthStone';
+    color: white;
+    font-size: 52px;
+}
+
+div img {
+    display: block;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #f2a455;
+}
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.apresentacao {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-apresentacao {
+    min-height: 200px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.text-apresentacao h1 {
+    color: #173c7c;
+    font-size: 58px;
+    margin: 10px;
+    font-family: 'BirthStone';
+}
+
+.comprar {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #173c7c;
+    display: block;
+}
+
+.quem_somos {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quem_somos h2 {
+    font-size: 32px;
+    color: #173c7c;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.quem_somos h2::before {
+    content: "";
+    width: 5px;
+    height: 35px;
+    background-color: #173c7c;
+    margin-right: 5px;
+    position: relative;
+}
+
+.quem_somos p {
+    margin-bottom: 10px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.quem_somos img {
+    min-width: 420px;
+}
+
+.container-externo {
+    background-color: #173c7c;
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+#servicos h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#servicos > div {
+    padding: 0 20px;
+}
+
+.list-servicos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.list-servicos div {
+    margin: 0 40px;
+}
+
+.list-servicos div p {
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.list-servicos div img {
+    width: 80%;
+    margin: auto;
+}
+
+.list-servicos div a {
+    font-weight: 600;
+}
+
+#planos {
+    flex-direction: column;
+    min-height: 520px;
+}
+
+#planos h2 {
+    font-size: 32px;
+    padding: 50px 0 0 20px;
+}
+
+.list-planos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.item-plano {
+    flex: 1;
+    border: 5px solid #173c7c;
+    margin: 0 20px;
+    padding: 20px;
+    max-width: 240px;
+}
+
+.item-plano h3 {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.item-plano h3::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #173c7c;
+    margin: 10px auto;
+}
+
+.item-plano ul {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+}
+
+.item-plano ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plano ul li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #173c7c;
+    margin-right: 5px;
+}
+
+.button {
+    background-color: #173c7c;
+    border-radius: 30px;
+    text-align: center;
+    padding: 14px;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+footer {
+    background-color: #173c7c;
+    display: flex;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5px 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 50%;
+    min-width: 450px;
+    font-size: 16px;
+}
+
+footer div a {
+    font-size: 16px;
+}
+
+/* MOBILE */
+
+@media(max-width: 992px) {
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+    header {
+        flex-direction: column;
+        background-color: #173c7c;
+        height: 120px;
+        justify-content: center;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .text-apresentacao {
+        width: 100%;
+        padding: 0;
+    }
+    .quem_somos {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .quem_somos div h2,p {
+        padding: 0 20px;
+        display: block;
+    }
+    .quem_somos p {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .quem_somos img {
+        margin: 0 auto;
+        min-width: 0;
+        width: 100%;
+    } 
+    .list-servicos {
+        flex-direction: column;
+    }
+    .list-servicos div img {
+        width: 40%;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+    .list-planos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-planos .item-plano {
+        width: 100%;
+        margin: 0 auto 30px auto;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .comprar {
+        width: 200px;
+        margin: 0 auto 60px auto;
+    }
+    footer div {
+        min-width: 300px;
+        max-width: 100%;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    #planos h2 {
+        padding: 50px 0 0 0;
+    }
+}
