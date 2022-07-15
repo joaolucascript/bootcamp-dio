@@ -26,3 +26,4 @@
 #### Projeto Integrador
 
 + [Projeto Integrador](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/flex-projeto/index.html)
++ [Clone Instagram](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/clone-instagram/index.html)
