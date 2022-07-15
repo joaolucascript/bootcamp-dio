@@ -1,0 +1,138 @@
+body {
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.instagram {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 14px;
+}
+/* Foto Celular */
+
+.celular {
+    margin-right: 30px;
+}
+
+.celular img {
+    width: 300px;
+}
+
+/* Login */
+
+.login-form {
+    border: 1px solid #dbdbdb;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.login-form img {
+    padding: 40px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.form input {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.form button {
+    border: 1px solid #0291f3;
+    border-radius: 3px;
+    background-color: #0291f3;
+    color: white;
+    font-weight: 600;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.login-form a:nth-of-type(1) {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login-form a:nth-of-type(2) {
+    color: #00376b;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.login-form p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #8e8e8e;
+    margin-bottom: 20px;
+}
+
+.login-form p::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: red;
+}
+
+.cadastro {
+    border: 1px solid #dbdbdb;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 350px;
+    padding: 5px 0;
+}
+
+.cadastro p {
+    color: #262626;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.cadastro a {
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.aplicativo {
+    display: flex;
+    justify-content: center;
+}
+
+.aplicativo img {
+    max-width: 150px;
+    padding: 5px;
+}
+
+/* Responsivo */
+
+@media (max-width: 786px) {
+    .celular {
+        display: none;
+    }
+    .login {
+        margin: auto;
+    }
+}
