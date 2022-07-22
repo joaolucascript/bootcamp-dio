@@ -1,0 +1,47 @@
+* {
+    font-family: 'Fira Code', monospace, Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(141, 92, 255);
+    background-color: white;
+    color: rgb(141, 92, 255);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 500px;
+    margin:  100px auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#counter {
+    display: flex;
+    padding: 10px;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+    
+}
