@@ -1,6 +1,6 @@
-# Índice
+# Impulso Javascript Evolution
 
-## Impulso Javascript Evolution
+## Fundamentos Web com HTML e CSS
 
 ### Posicionando elementos com Flexbox e CSS
 
@@ -28,8 +28,13 @@
 + [Projeto Integrador](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/flex-projeto/index.html)
 + [Clone Instagram](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Posicionando_elementos_com_Flexbox_e_CSS/clone-instagram/index.html)
 
+---
+## Dominando a Linguagem de Programação JavaScript
+
 ### Introdução ao JavaScript
 
 + [Contador em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Introducao_ao_JavaScript/contador/index.html)
 + [To-do List em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Introducao_ao_JavaScript/to-do-list/index.html)
 
+### Sintaxe Básica em JavaScript
++ [Calculadora em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Sintaxe_Basica_em_JavaScript/calculadora/index.html)
