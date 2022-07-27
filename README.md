@@ -32,32 +32,34 @@
 
 ### Introdução ao JavaScript
 
-- [Contador em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Introducao_ao_JavaScript/contador/index.html)
-- [To-do List em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Introducao_ao_JavaScript/to-do-list/index.html)
+- [Contador em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Introducao_ao_JavaScript/contador/index.html)
+- [To-do List em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Introducao_ao_JavaScript/to-do-list/index.html)
 
 ### Sintaxe Básica em JavaScript
 
-- [Calculadora em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Sintaxe_Basica_em_JavaScript/calculadora/index.html)
+- [Calculadora em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Sintaxe_Basica_em_JavaScript/calculadora/index.html)
 
 ### Sintaxe e Operadores JavaScript
 
-- [Comparar Números em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Sintaxe_e_Operadores_JavaScript/comparar_numeros/index.js)
+- [Comparar Números em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Sintaxe_e_Operadores_JavaScript/comparar_numeros/index.js)
 
 ### Variáveis e Tipos com JavaScript
 
-- [Substituir Números Pares em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Variaveis_e_Tipos_com_JavaScript/arrayPares.js)
-- [Verificar Palíndromo em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Variaveis_e_Tipos_com_JavaScript/palindromo.js)
+- [Substituir Números Pares em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Variaveis_e_Tipos_com_JavaScript/arrayPares.js)
+- [Verificar Palíndromo em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Variaveis_e_Tipos_com_JavaScript/palindromo.js)
 
 ### Dominando Funções em JavaScript
 
-- [Alunos Aprovados em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Dominando_Funcoes_em_JavaScript/alunosAprovados.js)
-- [Calcular Idade em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Dominando_Funcoes_em_JavaScript/calculaIdade.js)
+- [Alunos Aprovados em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Dominando_Funcoes_em_JavaScript/alunosAprovados.js)
+- [Calcular Idade em Javascript](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Dominando_Funcoes_em_JavaScript/calculaIdade.js)
 
 ### Debugging e Error Handling com JavaScript
 
-- [Validação de Erros por Tipo](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programação_JavaScript/Debugging_e_Error_Handling_com_JavaScript/validaErro.js)
+- [Validação de Erros por Tipo](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Debugging_e_Error_Handling_com_JavaScript/validaErro.js)
 
 ### Manipulando a D.O.M. com JavaScript
+
+- [Manipulando o DOM](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Manipulando_a_D.O.M._com_JavaScript/index.html)
 
 ### Fundamentos de JavaScript Assíncrono
 
