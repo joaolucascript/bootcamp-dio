@@ -66,17 +66,17 @@ function calculadora() {
     }
 
     if (operacao == 1) {
-        soma();
+      soma();
     } else if (operacao == 2) {
-        subtracao();
+      subtracao();
     } else if (operacao == 3) {
-        multiplicacao();
+      multiplicacao();
     } else if (operacao == 4) {
-        divisao();
+      divisao();
     } else if (operacao == 5) {
-        modulo();
+      modulo();
     } else if (operacao == 6) {
-        potencia();
+      potencia();
     }
 
     // switch (operacao) {
