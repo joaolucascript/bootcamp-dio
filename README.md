@@ -63,8 +63,13 @@
 
 ### Fundamentos de JavaScript Assíncrono
 
+- [Página com foto de Gatinhos usando uma API](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Fundamentos_de_JavaScript_Assincrono/index.html)
+
 ### Orientação a Objetos com JavaScript
 
-### Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
+- [Conta Bancária](https://joaolucascrpit.github.io/bootcamp-dio/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Orientacao_a_Objetos_com_JavaScript/index.html)
 
 ### Introdução Prática ao TypeScript
+
+- [Exercícios com TypeScript](https://github.com/joaolucascrpit/bootcamp-dio/tree/main/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Introducao_Pratica_ao_TypeScript/exercicios/)
+- [Desafios TypeScript](https://github.com/joaolucascrpit/bootcamp-dio/tree/main/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Introducao_Pratica_ao_TypeScript/desafios/)
