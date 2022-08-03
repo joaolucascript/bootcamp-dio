@@ -25,6 +25,7 @@ export default function cart(state = INITIAL_STATE, action) {
             state.Cart[key].quantity++;
             check = true;
           }
+          return undefined;
         });
         if (!check) {
           let item = {
