@@ -73,3 +73,13 @@
 
 - [Exercícios com TypeScript](https://github.com/joaolucascript/bootcamp-dio/tree/main/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Introducao_Pratica_ao_TypeScript/exercicios/)
 - [Desafios TypeScript](https://github.com/joaolucascript/bootcamp-dio/tree/main/impulso-javascript/Dominando_a_Linguagem_de_Programacao_JavaScript/Introducao_Pratica_ao_TypeScript/desafios/)
+
+## Desenvolvimento Web com React
+
+- [Interface com API do GitHub](https://github.com/joaolucascript/bootcamp-dio/tree/main/impulso-javascript/Desenvolvimento_Web_com_React/Criando_um_front-end_totalmente_componentizado_na_pratica_com_ReactJS/github-api)
+
+## Criando API com Node.Js
+
+- [Introdução ao Node.js com JavaScript](https://github.com/joaolucascript/bootcamp-dio/tree/main/impulso-javascript/Criando_API_com_Node.Js/Introducao_ao_Node.js_com_JavaScript)
+
+- [Integrando um Backend em Node.js com um Frontend em React para um E-commerce](https://github.com/joaolucascript/bootcamp-dio/tree/main/impulso-javascript/Criando_API_com_Node.Js/Integrando_um_Backend_em_Node.js_com_um_Frontend_em_React_para_um_E-commerce)
