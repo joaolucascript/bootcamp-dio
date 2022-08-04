@@ -1,8 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Paper, Grid, Typography, List, makeStyles } from "@material-ui/core/";
+import { Grid, List, makeStyles } from "@material-ui/core/";
 import Item from "../components/Item";
 import Card from "../components/Card";
+import * as S from "../components/layout/styled";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -42,10 +43,10 @@ const HomePage = () => {
   }
 
   return (
-    <Grid container spacing={3} className={classes.root}>
-      <Grid item xs={3}>
-        <Paper className={classes.paper}>
-          <Typography variant="h5">Categorias</Typography>
+    <S.ProdutosContainer>
+      <S.CategoriasContainer>
+        <S.Categorias>
+          <h2>Categorias</h2>
           <List>
             {category.map((category) => {
               return (
@@ -57,18 +58,20 @@ const HomePage = () => {
               );
             })}
           </List>
-        </Paper>
-      </Grid>
-      <Grid container xs={9} spacing={3} className={classes.root}>
-        {products.map((item) => {
-          return (
-            <Card key={item.id_product} product={item}>
-              {item.name_product}
-            </Card>
-          );
-        })}
-      </Grid>
-    </Grid>
+        </S.Categorias>
+      </S.CategoriasContainer>
+      <S.Produtos>
+        <Grid container xs={9} spacing={3} className={classes.root}>
+          {products.map((item) => {
+            return (
+              <Card key={item.id_product} product={item}>
+                {item.name_product}
+              </Card>
+            );
+          })}
+        </Grid>
+      </S.Produtos>
+    </S.ProdutosContainer>
   );
 };
 

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Grid, Button, TextField } from "@material-ui/core/";
+import { Button, TextField } from "@material-ui/core/";
+import * as S from "../components/layout/styled";
 
 const Contatos = () => {
   const url = "http://localhost:5000/message";
@@ -55,73 +56,70 @@ const Contatos = () => {
 
   return (
     <>
-      <Grid container direction="row" xs={12}>
-        <TextField
-          id="name"
-          label="Name"
-          value={author}
-          onChange={(event) => {
-            setAuthor(event.target.value);
-          }}
-          fullWidth
-        />
-        <TextField
-          id="message"
-          label="Message"
-          value={content}
-          onChange={(event) => {
-            setContent(event.target.value);
-          }}
-          fullWidth
-        />
-      </Grid>
+      <S.ContatoContainer>
+        <div className="formContainer">
+          <TextField
+            id="name"
+            label="Nome"
+            value={author}
+            onChange={(event) => {
+              setAuthor(event.target.value);
+            }}
+          />
+          <TextField
+            id="message"
+            label="Mensagem"
+            value={content}
+            onChange={(event) => {
+              setContent(event.target.value);
+            }}
+          />
 
-      {validator && (
-        <div
-          className="alert alert-warning alert-dismissible fade show mt-2"
-          role="alert"
-        >
-          <strong>Por favor preencha todos os campos!</strong>
-          <button
-            type="button"
-            className="btn-close"
-            data-bs-dismiss="alert"
-            aria-label="Close"
-          ></button>
-        </div>
-      )}
-
-      {success && (
-        <div
-          className="alert alert-success alert-dismissible fade show mt-2"
-          role="alert"
-        >
-          <strong>Mensagem foi enviada</strong>
-        </div>
-      )}
-
-      <Button
-        onClick={sendMessage}
-        className="mt-2"
-        variant="contained"
-        color="primary"
-      >
-        Sent
-      </Button>
-
-      {message.map((content) => {
-        return (
-          <div className="card mt-2" key={content.id}>
-            <div className="card-body">
-              <h5 className="card-title">{content.email}</h5>
-              <p className="card-text">{content.message}</p>
-              <p className="card-text">
-                <small className="text-muted">{content.created_at}</small>
-              </p>
+          {validator && (
+            <div
+              className="alert alert-warning alert-dismissible fade show mt-2"
+              role="alert"
+            >
+              <strong>Por favor preencha todos os campos!</strong>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
             </div>
-          </div>
-        );
-      })}
+          )}
+
+          {success && (
+            <div
+              className="alert alert-success alert-dismissible fade show mt-2"
+              role="alert"
+            >
+              <strong>Mensagem foi enviada</strong>
+            </div>
+          )}
+
+          <Button onClick={sendMessage} className="mt-2" color="primary">
+            Enviar
+          </Button>
+        </div>
+
+        <div className="cards">
+          {message.map((content) => {
+            return (
+              <div className="card mt-2" key={content.id}>
+                <div className="card-body">
+                  <h5 className="card-title">{content.email}</h5>
+                  <p className="card-text">{content.message}</p>
+                  <p className="card-text">
+                    <small className="text-muted">{content.created_at}</small>
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </S.ContatoContainer>
     </>
   );
 };
